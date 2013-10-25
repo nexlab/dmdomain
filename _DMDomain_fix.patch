@@ -1,0 +1,30 @@
+--- _DMDomain.c	2012-07-02 01:22:25.000000000 +0200
++++ aaa.c	2012-07-02 01:22:19.000000000 +0200
+@@ -65,9 +65,9 @@
+ _wrap__DMDomainValidateDomainString(PyObject * PYBINDGEN_UNUSED(dummy), PyObject *args, PyObject *kwargs)
+ {
+     PyObject *py_retval;
+-    char *DomainStr;
+-    char DomainType;
+-    char DomainLen;
++    BYTE *DomainStr;
++    BYTE DomainType;
++    BYTE DomainLen;
+     const char *keywords[] = {"DomainStr", "DomainType", "DomainLen", NULL};
+ 
+     if (!PyArg_ParseTupleAndKeywords(args, kwargs, (char *) "scc", (char **) keywords, &DomainStr, &DomainType, &DomainLen)) {
+@@ -85,10 +85,10 @@
+ _wrap__DMDomainDMDomainMatch(PyObject * PYBINDGEN_UNUSED(dummy), PyObject *args, PyObject *kwargs)
+ {
+     PyObject *py_retval;
+-    char retval;
+-    char *ControlStr;
+-    char *MatchStr;
+-    char ControlLen;
++    BYTE retval;
++    BYTE *ControlStr;
++    BYTE *MatchStr;
++    BYTE ControlLen;
+     const char *keywords[] = {"ControlStr", "MatchStr", "ControlLen", NULL};
+ 
+     if (!PyArg_ParseTupleAndKeywords(args, kwargs, (char *) "ssc", (char **) keywords, &ControlStr, &MatchStr, &ControlLen)) {
