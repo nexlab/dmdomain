@@ -1,7 +1,7 @@
 #!/bin/bash 
 ##################################################################
-# Copyright (c) 2012 Unixmedia S.r.l. <info@unixmedia.it>
-# Copyright (c) 2012 Franco (nextime) Lanza <franco@unixmedia.it>
+# Copyright (c) 2012-2014 Unixmedia S.r.l. <info@unixmedia.it>
+# Copyright (c) 2012-2014 Franco (nextime) Lanza <franco@unixmedia.it>
 #
 # Domotika System Domain unit tester [http://trac.unixmedia.it]
 #
