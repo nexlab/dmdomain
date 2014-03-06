@@ -40,3 +40,7 @@ luce.![sarca|antani]:luce.sarca:False
 *.[a|b]:A.B.C:False
 *.[a|b]:A.F.b:True
 *.[a|b]:A.F.a:True
+*.[a|b].[c|d]:A.F.b.d:True
+*.[a|b].[c|d]:A.F.a.d:True
+*.[a|b].[c|d]:A.F.b.c:True
+*.[a|b].[c|d]:A.F.b.d:True
