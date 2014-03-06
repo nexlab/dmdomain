@@ -37,3 +37,6 @@ luce.![sarca|antani]:luce.sarca:False
 *.[uno|due|tre].*:prova.uno.cinque:True
 *.[uno|due|tre].*:prova.tre.cinque:True
 *.[sarca|prova].*:prova.due.cinque:False
+*.[a|b]:A.B.C:False
+*.[a|b]:A.F.b:True
+*.[a|b]:A.F.a:True
